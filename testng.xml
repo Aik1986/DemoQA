@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/����/Documents/DemoQAWinter24">
+    <classes><class name="com.demoqa.homeWork.BasicLocators1"><methods><include name="textBoxTest"/>
+    </methods></class><class name="com.demoqa.homeWork.Dostavka312"><methods><include name="openLinks"/>
+    </methods></class><class name="com.demoqa.homeWork.Dostavka312K"><methods><include name="openLinks"/>
+    </methods></class><class name="com.demoqa.homeWork.NambaFoodOrder"><methods><include name="openLinks"/>
+    </methods></class><class name="com.demoqa.homeWork.Test3"><methods><include name="testFullName"/>
+        <include name="testEmail"/><include name="testCurrentAddress"/><include name="testPermanentAddress"/>
+        <include name="testSubmitButton"/></methods></class><class name="com.demoqa.homeWork.Test4">
+        <methods><include name="fillFormAndSubmit"/></methods></class><class name="com.demoqa.homeWork.TextBox">
+        <methods><include name="textBoxTest"/></methods></class><class name="com.demoqa.homeWork.TextBoxHW">
+        <methods><include name="testFullName"/>
+        </methods></class><class name="com.demoqa.homeWork.locators.BasicLocators"><methods>
+        <include name="fiindByIdTest"/></methods></class></classes></test></suite>
