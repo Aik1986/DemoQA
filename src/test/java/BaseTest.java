@@ -27,10 +27,10 @@ public class BaseTest {
    protected IframeHelper iframeHelper;
 
 
-@BeforeSuite(alwaysRun = true)
-public void setUp(){
+//@BeforeSuite(alwaysRun = true)
+//public void setUp(){
 
-}
+//}
 
 
 
@@ -52,6 +52,7 @@ public void setUp(){
 
     @AfterSuite(alwaysRun = true)
     public void tearDown()  {
-        DriverManager.closeDriver();
+
+    DriverManager.closeDriver();
 }
 }

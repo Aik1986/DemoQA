@@ -3,7 +3,7 @@ import com.demoqa.utils.ConfigReader;
 import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-@Listeners(com.demoqa.listener.ScreenshotListener.class)
+//@Listeners(com.demoqa.listener.ScreenshotListener.class)
 public class FrameTest extends BaseTest {
 
     @Test(description = "Verify that driver can switch to another frame")
