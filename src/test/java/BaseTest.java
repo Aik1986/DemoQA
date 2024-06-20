@@ -27,19 +27,6 @@ public class BaseTest {
    protected IframeHelper iframeHelper;
 
 
-<<<<<<< HEAD
-//@BeforeSuite(alwaysRun = true)
-//public void setUp(){
-
-//}
-=======
-// @BeforeSuite(alwaysRun = true)
-// public void setUp(){
-
-// }
->>>>>>> fca95b54b3deb47aa9d8163d91cb0731f87190b8
-
-
 
     @BeforeClass(alwaysRun = true)
     public void setUp1() {

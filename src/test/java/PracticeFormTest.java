@@ -6,11 +6,7 @@ import org.testng.annotations.Test;
 
 import static com.demoqa.enums.Endpoints.PRACTICEFORM;
 import static org.testng.Assert.assertEquals;
-<<<<<<< HEAD
-//@Listeners(com.demoqa.listener.ScreenshotListener.class)
-=======
-// @Listeners(com.demoqa.listener.ScreenshotListener.class)
->>>>>>> fca95b54b3deb47aa9d8163d91cb0731f87190b8
+
 public class PracticeFormTest extends BaseTest {
 
 //    @Test
