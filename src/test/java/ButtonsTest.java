@@ -4,7 +4,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static com.demoqa.enums.Endpoints.BUTTONS;
-@Listeners(com.demoqa.listener.ScreenshotListener.class)
+// @Listeners(com.demoqa.listener.ScreenshotListener.class)
 
 
 public class ButtonsTest extends BaseTest {
