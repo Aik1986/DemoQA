@@ -27,10 +27,10 @@ public class BaseTest {
    protected IframeHelper iframeHelper;
 
 
-@BeforeSuite(alwaysRun = true)
-public void setUp(){
+// @BeforeSuite(alwaysRun = true)
+// public void setUp(){
 
-}
+// }
 
 
 
