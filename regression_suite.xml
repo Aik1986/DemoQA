@@ -3,9 +3,9 @@
 <suite name="Regression suite">
     <test verbose="2" preserve-order="true" name="C:/Users/����/Documents/DemoQAWinter24">
         <classes>
-            <class name="ProgressBarTest"></class>
+            <class name="AlertTest"></class>
             <class name="TextBoxTest"></class>
-            <class name="SelectMenuTest"></class>
+            <class name="MenuTest"></class>
         </classes>
     </test>
 </suite>

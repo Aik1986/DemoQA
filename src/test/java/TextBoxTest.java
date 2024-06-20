@@ -14,7 +14,7 @@ public class TextBoxTest extends BaseTest {
         TextBoxEntity textBoxEntity = randomUtils.generateRandomTextBoxEntity();
         demoQAPages.getTextBoxPage().fillUpTextBoxForm(textBoxEntity);
         Thread.sleep(3000);
-        Assert.assertTrue(true);
+        //Assert.assertTrue(true);
 
 }
 }
