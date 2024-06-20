@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Smoke suite">
-       <listeners>
-     <listener class-name="com.demoqa.listener.ScreenshotListener"></listener>
-        </listeners>
-    <test verbose="2" preserve-order="true" name="C:/Users/����/Documents/DemoQAWinter24">
-        <classes>
-            <class name="ButtonsTest"></class>
-            <class name="FrameTest"></class>
-            <class name="PracticeFormTest"></class>
-            </classes>
-    </test>
+    <!--  <listeners>
+    <listener class-name="com.demoqa.listener.ScreenshotListener"></listener>
+       </listeners> -->
+   <test verbose="2" preserve-order="true" name="C:/Users/����/Documents/DemoQAWinter24">
+       <classes>
+           <class name="ButtonsTest"></class>
+           <class name="FrameTest"></class>
+           <class name="PracticeFormTest"></class>
+           </classes>
+   </test>
 </suite>
