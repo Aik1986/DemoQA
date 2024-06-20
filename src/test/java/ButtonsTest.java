@@ -12,7 +12,11 @@ public class ButtonsTest extends BaseTest {
     public void doubleClickTest(){
         browserHelper.open(ConfigReader.getValue("baseURL")+BUTTONS.getEndpoint());
        webElementActions.doubleClick(demoQAPages.getButtonsPage().doubleClickBtn);
+<<<<<<< HEAD
       // Assert.assertEquals(demoQAPages.getButtonsPage().doubleClickMessage.getText(), "You have done a double click");
+=======
+       //Assert.assertEquals(demoQAPages.getButtonsPage().doubleClickMessage.getText(), "You have done a double click");
+>>>>>>> refs/remotes/origin/master
     }
     @Test(description = "Verify right click js working properly")
     public void rightClickTest(){
