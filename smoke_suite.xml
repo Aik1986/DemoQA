@@ -9,6 +9,10 @@
            <class name="ButtonsTest"></class>
            <class name="FrameTest"></class>
            <class name="PracticeFormTest"></class>
+           <class name="AlertTest"></class>
+           <class name="TextBoxTest"></class>
+           <class name="MenuTest"></class>
+
            </classes>
    </test>
 </suite>
