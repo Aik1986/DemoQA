@@ -1,11 +1,12 @@
 import com.demoqa.entities.PracticeFormEntity;
 import com.demoqa.utils.ConfigReader;
 import org.openqa.selenium.By;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import static com.demoqa.enums.Endpoints.PRACTICEFORM;
 import static org.testng.Assert.assertEquals;
-
+@Listeners(com.demoqa.listener.ScreenshotListener.class)
 public class PracticeFormTest extends BaseTest {
 
 //    @Test

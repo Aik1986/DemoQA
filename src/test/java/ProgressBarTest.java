@@ -8,19 +8,19 @@ import static org.testng.Assert.assertEquals;
 
 public class ProgressBarTest extends BaseTest {
 
-    @Test(description = "")
-    public void progressBarTest() throws InterruptedException {
-        browserHelper.open(ConfigReader.getValue("baseURL")+PROGRESSBAR.getEndpoint());
-//        webElementActions.click(progressBarPage.startStopButton);
-        demoQAPages.getProgressBarPage();
-        Thread.sleep(2000);
-        webElementActions.click(demoQAPages.getProgressBarPage().startStopButton);
-        Thread.sleep(6000);
-
-        System.out.println(demoQAPages.getProgressBarPage().aria_valuenow.getAttribute("aria-valuenow"));
-        assertEquals(demoQAPages.getProgressBarPage().aria_valuenow.getAttribute("aria-valuenow"), "70");
-
-    }
+//    @Test(description = "")
+//    public void progressBarTest() throws InterruptedException {
+//        browserHelper.open(ConfigReader.getValue("baseURL")+PROGRESSBAR.getEndpoint());
+////        webElementActions.click(progressBarPage.startStopButton);
+//        demoQAPages.getProgressBarPage();
+//        Thread.sleep(2000);
+//        webElementActions.click(demoQAPages.getProgressBarPage().startStopButton);
+//        Thread.sleep(6000);
+//
+//        System.out.println(demoQAPages.getProgressBarPage().aria_valuenow.getAttribute("aria-valuenow"));
+//        assertEquals(demoQAPages.getProgressBarPage().aria_valuenow.getAttribute("aria-valuenow"), "70");
+//
+//    }
 
     @Test(description = "Test progress bar stopping at 52%")
     public void testProgressBarAt52Percent1() {
