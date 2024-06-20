@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/����/Documents/DemoQAWinter24">
         <classes>
             <class name="AlertTest"></class>
-            <class name="TextBoxTest"></class>
+            <class name="WebTableTest"></class>
             <class name="MenuTest"></class>
         </classes>
     </test>
