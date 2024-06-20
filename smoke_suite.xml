@@ -12,6 +12,9 @@
            <class name="AlertTest"></class>
            <class name="TextBoxTest"></class>
            <class name="MenuTest"></class>
+           <class name="ProgressBarTest"></class>
+           <class name="DemoTest"></class>
+           <class name="WebTableTest"></class>
 
            </classes>
    </test>
